@@ -1,0 +1,11 @@
+Build
+MYMETA.json
+MYMETA.yml
+META.json
+META.yml
+_build/
+blib/
+electron.zip
+MANIFEST.bak
+MANIFEST.SKIP.bak
+Alien-Electron-*.tar.gz
