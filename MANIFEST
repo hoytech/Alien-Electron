@@ -1,8 +1,8 @@
 Build.PL
 Changes
+ElectronModuleBuild.pm
 lib/Alien/Electron.pm
 MANIFEST			This list of files
 t/runs.t
-ElectronModuleBuild.pm
 META.yml
 META.json
