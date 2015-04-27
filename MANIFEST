@@ -4,5 +4,5 @@ ElectronModuleBuild.pm
 lib/Alien/Electron.pm
 MANIFEST			This list of files
 t/runs.t
-META.yml
-META.json
+t/static/main.js
+t/static/package.json
