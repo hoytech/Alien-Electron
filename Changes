@@ -1,2 +1,5 @@
+0.101   2015-04-30
+  * Attempt to download with curl if wget is not present
+
 0.100   2015-04-26
   * Initial CPAN release
