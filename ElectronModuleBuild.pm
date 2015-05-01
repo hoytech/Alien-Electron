@@ -78,12 +78,13 @@ sub download_zip_file {
     print "Downloading $electron_zipfile_url (be patient)\n";
 
     if (system(qw/wget -c -O/, "$electron_archive.partial", $electron_zipfile_url)) {
-      if (-e "$electron_archive.partial") {
-        ## wget started the download but probably user hit control-c
-        die "download failed, aborting";
-      }
+      die "wget download started but failed, aborting" if -e "$electron_archive.partial";
 
-      die "unable to run wget, please install wget";
+      if (system(qw/curl --progress-bar -L -C - -o/, "$electron_archive.partial", $electron_zipfile_url)) {
+        die "curl download started but failed, aborting" if -e "$electron_archive.partial";
+
+        die "unable to find download program, please install wget or curl";
+      }
     }
 
     rename("$electron_archive.partial", $electron_archive) || die "unable to rename $electron_archive.partial to $electron_archive ($!)";
