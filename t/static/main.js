@@ -1,3 +1,3 @@
 process.stdout.write("node.js is running");
 
-process.exit();
+process.exit(0);

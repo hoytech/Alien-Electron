@@ -10,7 +10,7 @@ use File::Path qw(mkpath);
 use parent 'Module::Build';
 
 
-my $electron_version = '0.25.1';
+my $electron_version = '1.0.1';
 my $electron_archive = 'electron.zip';
 
 
