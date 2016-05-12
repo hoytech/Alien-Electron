@@ -1,3 +1,6 @@
+0.102   2016-05-12
+  * Upgrade to electron 1.0.1
+
 0.101   2015-04-30
   * Attempt to download with curl if wget is not present
 
