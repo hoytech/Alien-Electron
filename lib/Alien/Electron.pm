@@ -24,7 +24,7 @@ Alien::Electron - Download and install the electron GUI framework
 
 =head1 DESCRIPTION
 
-This package will download a zip file containing github's L<Electron GUI framework|https://github.com/atom/electron> and will then install it into its private distribution share directory.
+This package will download a zip file containing github's L<Electron GUI framework|http://electron.atom.io/> and will then install it into its private distribution share directory.
 
 The location of the binary is stored in the C<$Alien::Electron::electron_binary> variable:
 
