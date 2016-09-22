@@ -59,7 +59,7 @@ Justin Pacheco
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2015 Doug Hoyte.
+Copyright 2015-2016 Doug Hoyte.
 
 This module is licensed under the same terms as perl itself.
 
