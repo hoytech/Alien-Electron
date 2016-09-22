@@ -33,6 +33,10 @@ The location of the binary is stored in the C<$Alien::Electron::electron_binary>
 
 Note that you may want to use the L<Valence> module instead of accessing the C<electron> binary directly.
 
+=head1 BUILD DEPENDENCIES
+
+On linux, the C<X11> environment variable must be set otherwise the electron binary will silently fail to start. In the case of running inside a docker container, see the workaround in L<github issue #2|https://github.com/hoytech/Alien-Electron/issues/2>.
+
 =head1 BUGS
 
 Need to get windows support working.
