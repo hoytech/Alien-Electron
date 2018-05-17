@@ -121,7 +121,7 @@ extract an entire zip file.
 Other modules like L<Archive::Zip> include their own unzip routines, which aren't as robust as L<IO::Uncompress::Unzip>;
 e.g. they don't work on zip64 archive files.
 
-So, the following code actually use L<IO::Uncompress::Unzip> to extract a zip file.
+So, the following code uses L<IO::Uncompress::Unzip> to extract a zip file.
 
 =cut
 
